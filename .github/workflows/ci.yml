@@ -28,4 +28,4 @@ jobs:
         uses: actions/checkout@v4.0.0
 
       - name: Run tests with Docker Compose
-        run: docker compose run -rm tests
+        run: docker compose run --rm tests
